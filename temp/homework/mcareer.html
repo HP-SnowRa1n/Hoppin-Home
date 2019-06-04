@@ -5,37 +5,51 @@
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="theme-color" content="#ffc0cb" />
+	<link rel="stylesheet" type="text/css" href="css/mportpolio.css"/>
 </head>
 <body>
+	<header>
 	<h1>최지웅 홈페이지</h1>
-	<a href="index.html">소개</a>
-	<a href="minfo.html">인적</a>
-	<a href="mstudy.html">학술</a>
-	<a href="mcareer.html">경력</a>
-	<h2>세미나(연수)</h2>
+</header>
+<nav>
+	<span><a href="index.html">소개</a></span>
+	<span><a href="minfo.html">인적</a></span>
+	<span><a href="mstudy.html">학술</a></span>
+	<span><a href="mcareer.html">경력</a></span>
+</nav>
+<div class="content">
+	<section class="section1">
+	<h3>세미나(연수)</h3>
 	<ul>
 		<li>2012.4 빅 데이터 응용 세미나 참석</li>
 		<li>2013.3~6 IT 멘토링 사업 참여</li>
 	</ul>
-	<a href="images/seminar1.jpg" target="_blank">
-	<img src="images/seminar1.jpg" width="350" height="230" title="클릭 시 원본 이미지가 열립니다."/></a>
-	<a href="images/seminar2.jpg" target="_blank">
-	<img src="images/seminar2.jpg" width="350" height="230" title="클릭 시 원본 이미지가 열립니다."/></a>
-	<a href="images/seminar3.jpg" target="_blank">
-	<img src="images/seminar3.jpg" width="350" height="230" title="클릭 시 원본 이미지가 열립니다."/></a>
-	<h2>인턴쉽</h2>
+	<div id="pic-container">
+		<img id="pic1" class="semi-pic" src="images/seminar1.jpg"/>
+		<img id="pic2" class="semi-pic" src="images/seminar2.jpg"/>
+		<img id="pic3" class="semi-pic" src="images/seminar3.jpg"/>
+	</div>
+	<h3>인턴쉽</h3>
 	<ul>
 		<li>2013.7~8 하계 인턴쉽 참여 (퓨처스 게임)</li>
 	</ul>
-	<h2>봉사</h2>
+	<h3>봉사</h3>
 	<ul>
 		<li>2011.7 농어촌 봉사활동</li>
 		<li>2012.8 취약계층 IT 방문교육서비스 참여</li>
 	</ul>
-	<h2>참조링크</h2>
-	<a href="http://www.naver.com"><img src="images/naver.jpg"/></a>
-	<a href="http://www.google.com"><img src="images/google.jpg"/></a>
-	<a href="http://www.daum.net"><img src="images/daum.jpg"/></a>
+</section>
+	<aside>
+	<h3>참조링크</h3>
+	<a href="http://www.naver.com">
+		<img class="portal" src="images/naver.jpg" alt="네이버로 이동"/></a>
+	<a href="http://www.google.com">
+		<img class="portal" src="images/google.jpg" alt="구글로 이동"/></a>
+	<a href="http://www.daum.net">
+		<img class="portal" src="images/daum.jpg" alt="다음으로 이동"/></a>
+	</aside>
+	<footer>
 	<h2>Copyright© 2019 Jiwoong Choi</h2>
+</footer>
 </body>
 </html>
